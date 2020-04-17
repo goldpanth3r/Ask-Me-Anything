@@ -29,7 +29,7 @@ class Ball extends StatefulWidget {
 class _BallState extends State<Ball> {
   int ballNumber = 1;
   @override
-  Widget sssbuild(BuildContext context) {
+  Widget build(BuildContext context) {
     return Center(
       child: FlatButton(
         onPressed: (){
